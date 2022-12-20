@@ -1,6 +1,5 @@
 header {
     background-color: #000;
-
 }
 .nav1{
     display: flex;
@@ -24,10 +23,11 @@ header {
     display: inline-block;
     padding: 16px 0px;
     color: #FFF;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 18px;
     line-height: 32px;
     position: relative;
+    font-family: 'Poppins', sans-serif;
 }
 
 .links-list a::after{
