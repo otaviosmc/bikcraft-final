@@ -1,0 +1,46 @@
+.bikes{
+    margin-top: 120px;
+}
+
+.bikes ul{
+    max-width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 0px 20px 20px 20px;
+    overflow-x: auto;
+}
+
+.bikes img{
+    width: 100%;
+}
+
+.bikes li{
+    min-width: 280px;
+}
+
+.bikes li span{
+    padding-left: 20px;
+}
+
+.bikes li h3{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+li h3::before{
+ content: "";
+ width: 12px;
+ height: 8px;
+ margin-right: 8px;
+ background: var(--cor-p1);
+}
+
+.bikes a{
+    display: block;
+}
+
+@media(max-width: 800px){
+        
+}
