@@ -4,6 +4,10 @@ header nav{
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
+    padding: 16px 20px;
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .links-list{
