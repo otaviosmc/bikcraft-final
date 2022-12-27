@@ -76,6 +76,9 @@
 .cor-p1{
     color: var(--cor-p1) 
 }
+.bg-cor-p1{
+    background: var(--cor-p1) ;
+}
 .cor-p2{
     color: var(--cor-p2) 
 }
