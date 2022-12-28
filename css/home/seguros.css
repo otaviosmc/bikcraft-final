@@ -1,0 +1,63 @@
+.seguros-bg{
+    padding-top: 60px;
+    box-shadow: 0px -4px var(--cor-11);
+}
+.planos{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 40px;
+padding: 60px 0px 120px 0px;
+align-items: center;
+}
+.prata, .ouro{
+box-sizing: border-box;
+padding: 32px 32px 32px 64px;
+}
+.cabecalho{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.plano{
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-size: 36px;
+line-height: 48px;
+}
+.seguros h3{
+    position: relative;
+}
+.seguros h3::after{
+ position: absolute;
+ content: "mensal";
+ color: var(--cor-6);
+ font-size: 12px;
+ line-height: 16px;
+ top: 40px;
+ left: 65px;
+}
+.seguros ul{
+margin-top: 40px;
+}
+.lista{
+    margin-bottom: 20px;
+    position: relative;
+}
+.lista::before{
+    content: url("/components/images/icones/lista.svg"); 
+    width: 13px;
+    position: absolute;
+    left: -25px;
+    top: -2px;
+}
+@media(max-width:850px){
+.planos{
+    grid-template-columns: 1fr;
+}
+.plano{
+    font-size: 32px;
+}
+.seguros li{
+    font-size: 18px;
+}
+}

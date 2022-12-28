@@ -54,6 +54,9 @@
 .cor-10{
     color: var(--cor-10) 
 }
+.bg-cor-10{
+    background: var(--cor-10);
+}
 .cor-11{
     color: var(--cor-11) 
 }
