@@ -41,14 +41,6 @@ margin-top: 40px;
 }
 .lista{
     margin-bottom: 20px;
-    position: relative;
-}
-.lista::after{
-    content: url(/components/images/icones/lista.svg); 
-    width: 13px;
-    position: absolute;
-    left: -25px;
-    top: -2px;
 }
 @media(max-width:850px){
 .planos{
