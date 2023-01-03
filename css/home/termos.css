@@ -1,0 +1,25 @@
+.termos-titulo{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+padding: 32px 0px 0px 0px;
+}
+
+.termos-texto{
+padding: 12px 0px;
+font-weight: 400;
+}
+
+.textos{
+    max-width: 800px;
+}
+
+.termos-conteudo{
+    padding: 100px 0px;
+}
+
+.termos{
+    padding: 40px 0px;
+}

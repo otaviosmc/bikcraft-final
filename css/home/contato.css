@@ -25,6 +25,9 @@
 .footer{
     padding: 32px 0px;
 }
+#info a:hover, #contato li:hover{
+    color: var(--cor-0);
+}
 @media(max-width:1250px){
     .conteudo-contato{
         gap: 20px;
