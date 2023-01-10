@@ -48,3 +48,6 @@ a{
 .secundario:hover{
  background: var(--cor-10);
 }
+img{
+    border-radius: 4px;
+}
